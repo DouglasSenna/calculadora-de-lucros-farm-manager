@@ -8,97 +8,101 @@
   <body>
     <header class="header">
       <div class="sindicato">
-        <img src="/img/sindicato-logo.png" id="sind-logo" alt="sindicato-logo">
+        <img
+          src="/img/sindicato-logo.png"
+          id="sind-logo"
+          alt="sindicato-logo"
+        />
         <h1>Sindicato Terra e Progresso</h1>
       </div>
       <div class="btn-w">
-        <button class="btn-whatsapp" onclick="abrirWhatsapp()">
-          <svg viewBox="0 0 32 32" aria-hidden="true">
-            <path
-              d="M19.11 17.38c-.28-.14-1.64-.81-1.89-.9-.25-.09-.44-.14-.62.14-.19.28-.72.9-.89 1.09-.16.19-.33.21-.61.07-.28-.14-1.18-.43-2.24-1.38-.83-.74-1.39-1.66-1.55-1.94-.16-.28-.02-.43.12-.57.13-.13.28-.33.42-.49.14-.16.19-.28.28-.46.09-.19.05-.35-.02-.49-.07-.14-.62-1.5-.85-2.06-.22-.53-.45-.46-.62-.46h-.53c-.19 0-.49.07-.75.35-.26.28-.98.96-.98 2.34s1.01 2.71 1.15 2.9c.14.19 1.99 3.04 4.82 4.26.67.29 1.19.46 1.6.59.67.21 1.28.18 1.76.11.54-.08 1.64-.67 1.87-1.32.23-.65.23-1.21.16-1.32-.07-.11-.25-.18-.53-.32zM16.02 3C9.38 3 4 8.38 4 15.02c0 2.65.87 5.1 2.34 7.08L4 29l7.11-2.27a12 12 0 0 0 4.91 1.01C22.64 27.74 28 22.36 28 15.72 28 9.08 22.64 3 16.02 3z"
-            />
-          </svg>
-        </button>
+        <a class="btn-whatsapp" onclick="abrirWhatsapp()">
+          <img src="./img/wapp.png" alt="whapp" id="whapp" />
+        </a>
       </div>
     </header>
 
-    <div class="card">
-      <h2>🌾 Simulador de Lucros</h2>
+    <div class="content-card">
+      <div class="card">
+        <h2 class="titulo-content">🌾 Simulador de Lucros</h2>
 
-      <label>Planta</label>
-      <select id="planta">
-        <option>Selecione a planta</option>
-        <option value="soja">Soja</option>
-        <option value="tabaco">Tabaco</option>
-        <option value="vagem">Vagem</option>
-        <option value="sorgo">Sorgo</option>
-        <option value="ervilha">Ervilha</option>
-        <option value="cebola">Cebola</option>
-        <option value="cevada">Cevada</option>
-        <option value="girassol">Girassol</option>
-        <option value="feijaoDeCorda">Feijão de corda</option>
-        <option value="tomate">Tomate</option>
-        <option value="amendoim">Amendoim</option>
-        <option value="batataBranca">Batata branca</option>
-        <option value="milho">Milho</option>
-        <option value="milhetePerola">Milhete pérola</option>
-        <option value="trigoSarraceno">Trigo sarraceno</option>
-        <option value="batataDoce">Batata doce</option>
-        <option value="canola">Canola</option>
-        <option value="beterraba">Beterraba</option>
-        <option value="aveia">Aveia</option>
-        <option value="repolho">Repolho</option>
-        <option value="graoDeBicoCicer">Grão de bico - Cicer</option>
-        <option value="centeio">Centeio</option>
-        <option value="abobora">Abóbora</option>
-        <option value="arrozDeVarzea">Arroz de várzea</option>
-        <option value="arrozDeTerrasSecas">Arroz de terras secas</option>
-        <option value="trigo">Trigo</option>
-        <option value="cenoura">Cenoura</option>
-        <option value="linhal">Linhal</option>
-        <option value="algodao">Algodão</option>
-        <option value="graoDeBicoCajanus">Grão de bico - Cajanus</option>
-        <option value="inhameRoxo">Inhame roxo</option>
-        <option value="inhameBranco">Inhame branco</option>
-        <option value="taro">Taro</option>
-        <option value="inhameAmarelo">Inhame amarelo</option>
-        <option value="bananaDaTerra">Banana da terra</option>
-        <option value="mandioca">Mandioca</option>
-        <option value="canaDeAcucar">Cana de açúcar</option>
-        <option value="azeitona">Azeitona</option>
-        <option value="cafeRobusta">Café robusta</option>
-        <option value="cacauComum">Cacau comum</option>
-        <option value="limao">Limão</option>
-        <option value="cafeArabica">Café arábica</option>
-        <option value="borracha">Borracha</option>
-        <option value="cha">Chá</option>
-        <option value="laranja">Laranja</option>
-        <option value="coco">Coco</option>
-      </select>
+        <label>Planta</label>
+        <select id="planta">
+          <option>Selecione a planta</option>
+          <option value="soja">Soja</option>
+          <option value="tabaco">Tabaco</option>
+          <option value="vagem">Vagem</option>
+          <option value="sorgo">Sorgo</option>
+          <option value="ervilha">Ervilha</option>
+          <option value="cebola">Cebola</option>
+          <option value="cevada">Cevada</option>
+          <option value="girassol">Girassol</option>
+          <option value="feijaoDeCorda">Feijão de corda</option>
+          <option value="tomate">Tomate</option>
+          <option value="amendoim">Amendoim</option>
+          <option value="batataBranca">Batata branca</option>
+          <option value="milho">Milho</option>
+          <option value="milhetePerola">Milhete pérola</option>
+          <option value="trigoSarraceno">Trigo sarraceno</option>
+          <option value="batataDoce">Batata doce</option>
+          <option value="canola">Canola</option>
+          <option value="beterraba">Beterraba</option>
+          <option value="aveia">Aveia</option>
+          <option value="repolho">Repolho</option>
+          <option value="graoDeBicoCicer">Grão de bico - Cicer</option>
+          <option value="centeio">Centeio</option>
+          <option value="abobora">Abóbora</option>
+          <option value="arrozDeVarzea">Arroz de várzea</option>
+          <option value="arrozDeTerrasSecas">Arroz de terras secas</option>
+          <option value="trigo">Trigo</option>
+          <option value="cenoura">Cenoura</option>
+          <option value="linhal">Linhal</option>
+          <option value="algodao">Algodão</option>
+          <option value="graoDeBicoCajanus">Grão de bico - Cajanus</option>
+          <option value="inhameRoxo">Inhame roxo</option>
+          <option value="inhameBranco">Inhame branco</option>
+          <option value="taro">Taro</option>
+          <option value="inhameAmarelo">Inhame amarelo</option>
+          <option value="bananaDaTerra">Banana da terra</option>
+          <option value="mandioca">Mandioca</option>
+          <option value="canaDeAcucar">Cana de açúcar</option>
+          <option value="azeitona">Azeitona</option>
+          <option value="cafeRobusta">Café robusta</option>
+          <option value="cacauComum">Cacau comum</option>
+          <option value="limao">Limão</option>
+          <option value="cafeArabica">Café arábica</option>
+          <option value="borracha">Borracha</option>
+          <option value="cha">Chá</option>
+          <option value="laranja">Laranja</option>
+          <option value="coco">Coco</option>
+        </select>
 
-      <label>Preço de venda (R$ / 1.000 kg)</label>
-      <input
-        id="precoVenda"
-        type="number"
-        step="0.01"
-        placeholder="Ex. 1345 sem o ponto"
-      />
+        <label>Preço de venda (R$ / 1.000 kg)</label>
+        <input
+          id="precoVenda"
+          type="number"
+          step="0.01"
+          placeholder="Ex. 1345 sem o ponto"
+        />
 
-      <label>Preço da semente (R$ / kg)</label>
-      <input
-        id="precoSemente"
-        type="number"
-        step="0.01"
-        placeholder="Ex. 2,33 para decimal"
-      />
+        <label>Preço da semente (R$ / kg)</label>
+        <input
+          id="precoSemente"
+          type="number"
+          step="0.01"
+          placeholder="Ex. 2,33 para decimal"
+        />
 
-      <button onclick="calcular()">Calcular e salvar</button>
+        <button onclick="calcular()">Calcular e salvar</button>
 
-      <div class="resultado" id="resultado"></div>
+        <div class="resultado" id="resultado"></div>
+      </div>
 
-      <div class="ranking">
-        <h3>🏆 Ranking (Lucro líquido / kg)</h3>
-        <div id="ranking"></div>
+      <div class="card">
+        <div class="ranking">
+          <h2>🏆 Ranking (Lucro líquido / kg)</h2>
+          <div id="ranking"></div>
+        </div>
       </div>
     </div>
 
@@ -113,7 +117,7 @@
       <p class="titulo-footer">
         Desenvolvido por Tribalcilinder - Sindicato Terra e Progresso
       </p>
-      <p>Versão - 1.0.2</p>
+      <p id="versao"></p>
     </footer>
     <script src="script.js"></script>
   </body>

@@ -1,3 +1,18 @@
+const APP_VERSION = "1.0.3";
+const versaoSalva = localStorage.getItem("app_version");
+
+if (!versaoSalva) {
+  localStorage.removeItem("ranking");
+  alert(
+    `Sistema atualizado para a versão ${APP_VERSION}. Ranking antigo foi resetado.`
+  );
+}
+
+localStorage.setItem("app_version", APP_VERSION);
+
+const versao = document.getElementById("versao");
+versao.innerHTML = `${APP_VERSION}`;
+
 function abrirWhatsapp() {
   window.open("https://chat.whatsapp.com/INyiv2MAyvj8gTuJ7BFyd2", "_blank");
 }
