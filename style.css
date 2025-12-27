@@ -264,7 +264,7 @@ button:hover {
   fonte-size: 30px;
 }
 
-@media (max-width: 715px) {
+@media (max-width: 890px) {
   .content-card {
     flex-direction: column;
   }
