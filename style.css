@@ -16,6 +16,12 @@
   z-index: 1000;
 }
 
+#sind-logo{
+  width: 75px;
+  margin-right: 10px;
+  margin-left: 30px;
+}
+
 .sindicato {
   display: flex;
   justify-content: center;
