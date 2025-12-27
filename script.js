@@ -57,7 +57,7 @@ const plantas = {
     maturacaoHoras: 1 + 51 / 60 + 20 / 3600,
   },
   // feijão de corda
-  "feijao-de-corda": {
+  feijaoDeCorda: {
     nome: "Feijão de corda",
     sementesHa: 40,
     rendimentoHa: 632,
@@ -78,7 +78,7 @@ const plantas = {
     maturacaoHoras: 2 + 18 / 60 + 59 / 3600,
   },
   // batata branca
-  "batata-branca": {
+  batataBranca: {
     nome: "Batata branca",
     sementesHa: 2300,
     rendimentoHa: 22690,
@@ -92,21 +92,21 @@ const plantas = {
     maturacaoHoras: 2 + 42 / 60 + 57 / 3600,
   },
   // milhete pérola
-  "milhete-perola": {
+  milhetePerola: {
     nome: "Milhete pérola",
     sementesHa: 16,
     rendimentoHa: 1003,
     maturacaoHoras: 2 + 42 / 60 + 57 / 3600,
   },
   // trigo sarraceno
-  "trigo-sarraceno": {
+  trigoSarraceno: {
     nome: "Trigo sarraceno",
     sementesHa: 67,
     rendimentoHa: 1021,
     maturacaoHoras: 2 + 42 / 60 + 7 / 3600,
   },
   // batata doce
-  "batata-doce": {
+  batataDoce: {
     nome: "Batata doce",
     sementesHa: 1460,
     rendimentoHa: 12292,
@@ -139,7 +139,7 @@ const plantas = {
     rendimentoHa: 31141,
     maturacaoHoras: 2 + 22 / 60 + 59 / 3600,
   },
-  "grao-de-bico-cicer": {
+  graoDeBicoCicer: {
     nome: "Grão de bico - Cicer",
     sementesHa: 97,
     rendimentoHa: 1187,
@@ -159,14 +159,14 @@ const plantas = {
     maturacaoHoras: 4 + 3 / 60 + 1 / 3600,
   },
   // arroz de várzea
-  "arroz-de-varzea": {
+  arrozDeVarzea: {
     nome: "Arroz de várzea",
     sementesHa: 168,
     rendimentoHa: 4728,
     maturacaoHoras: 4 + 10 / 60 + 3 / 3600,
   },
   // arroz de terras secas
-  "arroz-de-terras-secas": {
+  arrozDeTerrasSecas: {
     nome: "Arroz de terras secas",
     sementesHa: 224,
     rendimentoHa: 4728,
@@ -201,20 +201,20 @@ const plantas = {
     maturacaoHoras: 4 + 52 / 60 + 50 / 3600,
   },
   // grão-de-bico cajanus
-  "grao-de-bico-cajanus": {
+  graoDeBicoCajanus: {
     nome: "Grão de bico - Cajanus",
     sementesHa: 20,
     rendimentoHa: 862,
     maturacaoHoras: 5 + 6 / 60 + 54 / 3600,
   },
   // inhames / taro / banana / mandioca etc
-  "inhame-roxo": {
+  inhameRoxo: {
     nome: "Inhame roxo",
     sementesHa: 2000,
     rendimentoHa: 8380,
     maturacaoHoras: 5 + 36 / 60 + 6 / 3600,
   },
-  "inhame-branco": {
+  inhameBranco: {
     nome: "Inhame branco",
     sementesHa: 2000,
     rendimentoHa: 8380,
@@ -226,13 +226,13 @@ const plantas = {
     rendimentoHa: 8310,
     maturacaoHoras: 6 + 40 / 60 + 6 / 3600,
   },
-  "inhame-amarelo": {
+  inhameAmarelo: {
     nome: "Inhame amarelo",
     sementesHa: 2000,
     rendimentoHa: 8310,
     maturacaoHoras: 6 + 40 / 60 + 6 / 3600,
   },
-  "banana-da-terra": {
+  bananaDaTerra: {
     nome: "Banana da terra",
     sementesHa: 2000,
     rendimentoHa: 23200,
@@ -244,7 +244,7 @@ const plantas = {
     rendimentoHa: 10305,
     maturacaoHoras: 7 + 12 / 60 + 49 / 3600,
   },
-  "cana-de-acucar": {
+  canaDeAcucar: {
     nome: "Cana de açúcar",
     sementesHa: 10000,
     rendimentoHa: 74576,
@@ -256,13 +256,13 @@ const plantas = {
     rendimentoHa: 1813,
     maturacaoHoras: 10 + 32 / 60 + 25 / 3600,
   },
-  "cafe-robusta": {
+  cafeRobusta: {
     nome: "Café robusta",
     sementesHa: 125,
     rendimentoHa: 903,
     maturacaoHoras: 11 / 60 + 4 / 3600,
   },
-  "cacau-comum": {
+  cacauComum: {
     nome: "Cacau comum",
     sementesHa: 70,
     rendimentoHa: 479,
@@ -274,7 +274,7 @@ const plantas = {
     rendimentoHa: 16947,
     maturacaoHoras: 12 + 36 / 60 + 47 / 3600,
   },
-  "cafe-arabica": {
+  cafeArabica: {
     nome: "Café arábica",
     sementesHa: 250,
     rendimentoHa: 903,
